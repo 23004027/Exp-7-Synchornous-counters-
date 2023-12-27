@@ -46,43 +46,66 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+1.Create a new project in Quartus II software.
+2.Name the project as uc for upcounter and dc for downcounter.
+3.Create a new Verilog HDL file in the project file.
+4.Name the module as dc and uc for downcounter and upcounter.
+5.Within the module declare input and output variables.
+6.Complete the program.
+7.End the module.
 
 
 
 ### PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-
-
-
-
-
+### UP COUNTER
+```python
+module uc(clk, A);
+input clk;
+output reg [2:0]A;
+always @(posedge clk)
+begin
+A[2]=(((A[0])&(A[1]))^A[2]);
+A[1]=(A[0])^A[1];
+A[0]=A[0]^1;
+end
+endmodule
+```
+### DOWN COUNTER
+```python
+module dc(clk,A);
+input clk;
+output reg [2:0]A;
+always @(posedge clk)
+begin
+A[2]=(((~A[0])&(~A[1]))^A[2]);
+A[1]=(~A[0])^A[1];
+A[0]=1^A[0];
+end
+endmodule
+```
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+### UP COUNTER
+![Screenshot 2023-12-27 212445](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/d59e9dab-0640-49c9-8a0a-a5b021f201c4)
 
-
-
-
-
-
-
+### DOWN COUNTER
+![Screenshot 2023-12-27 212508](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/6602e1ff-6870-4f99-aebd-286e1e3b4683)
 
 
 ### TIMING DIGRAMS FOR COUNTER  
-
-
-
+### UP COUNTER
+![Screenshot 2023-12-27 212527](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/f9298d2c-bdb3-4bb4-8d7a-162ee5a2ef11)
+### 
+![Screenshot 2023-12-27 212527](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/dddbb8a1-6713-42ae-956c-61d7583941dc)
 
 
 ### TRUTH TABLE 
+### UP COUNTER
+![Screenshot 2023-12-27 212608](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/7d6cac75-d0c2-47fd-ab64-bad9549efa73)
+### DOWN COUNTER
+![Screenshot 2023-12-27 212817](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/95a9d19f-c623-41c5-abb9-dcbcf088289f)
 
 
 
-
-
-
-### RESULTS 
+### RESULTS
+Thus we have verified the truthtable of 4-bit up and down counter using verilog.
