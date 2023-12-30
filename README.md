@@ -88,24 +88,30 @@ endmodule
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 ### UP COUNTER
-![Screenshot 2023-12-27 212445](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/d59e9dab-0640-49c9-8a0a-a5b021f201c4)
+![WhatsApp Image 2023-12-30 at 10 00 40_597a48f3](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/5e559cc8-dbe8-44e2-b276-17c8d030faa2)
+
 
 ### DOWN COUNTER
-![Screenshot 2023-12-27 212508](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/6602e1ff-6870-4f99-aebd-286e1e3b4683)
+![WhatsApp Image 2023-12-30 at 10 00 55_de7b0643](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/f03e7228-5486-4193-be9e-0a293ba63a64)
+
 
 
 ### TIMING DIGRAMS FOR COUNTER  
 ### UP COUNTER
-![Screenshot 2023-12-27 212527](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/f9298d2c-bdb3-4bb4-8d7a-162ee5a2ef11)
-### 
-![Screenshot 2023-12-27 212527](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/dddbb8a1-6713-42ae-956c-61d7583941dc)
+![WhatsApp Image 2023-12-30 at 10 01 35_88cedef8](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/3760fb80-cfcb-47fa-925d-4031753f6a0e)
+
+### DOWN COUNTER
+![WhatsApp Image 2023-12-30 at 10 01 43_f4dd7164](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/b58043cb-f08a-47f6-a681-f542d5096c79)
+
 
 
 ### TRUTH TABLE 
 ### UP COUNTER
-![Screenshot 2023-12-27 212608](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/7d6cac75-d0c2-47fd-ab64-bad9549efa73)
+![WhatsApp Image 2023-12-30 at 10 01 06_36f6af7d](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/494109fb-cd55-403c-95d6-0e32e3f47b9c)
+
 ### DOWN COUNTER
-![Screenshot 2023-12-27 212817](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/95a9d19f-c623-41c5-abb9-dcbcf088289f)
+![WhatsApp Image 2023-12-30 at 10 01 22_6b0431ab](https://github.com/23004027/Exp-7-Synchornous-counters-/assets/138956447/50fad036-347e-44fc-8b8d-b62da485887a)
+
 
 
 
