@@ -1,4 +1,4 @@
-# Exp-6-Synchornous-counters - up counter and down counter 
+# Exp 6 Synchornous-counters up counter and down counter 
 # BY:VIGNESH.V
 # REGISTER NUMBER:23004027
 ### AIM: To implement 3 bit up and down counters and validate  functionality.
